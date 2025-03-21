@@ -68,17 +68,31 @@ h1 {
 
 @media screen and (max-width: 1366px) {
   .canvas {
-    left: 10px;
-    transform: none;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
   }
 
   .valueDisplay {
-    margin-left: 10px;
+    position: relative;
+    color: #d8e698;
+    margin-left: 50px;
+    font-weight: 600;
   }
 
   .Slider {
-    margin-left: 10px;
-    width: 150px;
+    -webkit-appearance: none;
+    position: relative;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    background: none;
+    height: 10px;
+    width: 200px;
+    border-radius: 8px;
+    border: 2px solid #d8e698;
   }
 }
 
@@ -88,22 +102,30 @@ h1 {
   }
 
   .canvas {
-    top: 5px;
-    left: 5px; 
-  }
-
-  #second_canvas {
-    top: 5px; 
-    left: 5px; 
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
   }
 
   .valueDisplay {
-    margin-left: 5px;
-    font-size: 14px;
+    position: relative;
+    color: #d8e698;
+    margin-left: 50px;
+    font-weight: 600;
   }
 
   .Slider {
-    margin-left: 5px;
-    width: 120px;
+    -webkit-appearance: none;
+    position: relative;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    background: none;
+    height: 10px;
+    width: 200px;
+    border-radius: 8px;
+    border: 2px solid #d8e698;
   }
 }
